@@ -51,7 +51,7 @@ export default function CatalogoRopa() {
 
   const enviarPedidoWhatsApp = (prenda: Prenda) => {
     const mensaje = `Hola, me gustaría hacer un pedido de ${prenda.nombre}. Precio: $${prenda.precio}`
-    const url = `https://wa.me/3176961102?text=${encodeURIComponent(mensaje)}`
+    const url = `https://wa.me/+573103371387?text=${encodeURIComponent(mensaje)}`
     window.open(url, '_blank')
   }
 
