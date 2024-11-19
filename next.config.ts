@@ -1,7 +1,7 @@
-import { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  // Si no tienes configuraciones adicionales, puedes dejarlo vacío
+// next.config.js
+const nextConfig = {
+  reactStrictMode: true,
+  distDir: '.next', 
 };
 
-export default nextConfig;
+module.exports = nextConfig;
