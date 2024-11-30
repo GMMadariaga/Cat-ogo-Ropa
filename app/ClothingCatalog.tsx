@@ -26,17 +26,16 @@ const prendas: Prenda[] = [
   { id: 7, nombre: "SET TOP CHOMPA + LEGG", descripcion: "Dúos", precio: 50000.00, imagen: "/images/Img7.jpg", colores: ["Azul", "Blanco"] },
   { id: 8, nombre: "SET CAPRI & BUZO CORTO", descripcion: "Dúos", precio: 50000.00, imagen: "/images/Img8.jpg", colores: ["Gris", "Negro"] },
   { id: 9, nombre: "SET TIPO POLO + CAPRI", descripcion: "Dúos", precio: 45000.00, imagen: "/images/Img9.jpg", colores: ["Verde", "Negro"] },
-  { id: 10, nombre: "SET", descripcion: "", precio: 0.00, imagen: "/images/Img10.jpg", colores: ["Rojo", "Azul"] },
-  { id: 11, nombre: "SET", descripcion: "", precio: 0.00, imagen: "/images/Img11.jpg", colores: ["Blanco"] },
-  { id: 12, nombre: "SET SUDADERA + CHAQUETA CHOMPA", descripcion: "", precio: 60000.00, imagen: "/images/Img12.jpg", colores: ["Negro", "Gris"] },
-  { id: 13, nombre: "SET CHAQUETA TEX + SHORT", descripcion: "Dúos", precio: 40000.00, imagen: "/images/Img13.jpg", colores: ["Naranja", "Negro"] },
-  { id: 14, nombre: "SET SHORT PUSH + TOP PUNTA", descripcion: "Dúos", precio: 45000.00, imagen: "/images/Img2.jpg", colores: ["Verde", "Negro"] },
-  { id: 15, nombre: "SET SHORT + TOP MARIPOSA", descripcion: "Dúos", precio: 45000.00, imagen: "/images/Img15.jpg", colores: ["Rojo", "Negro"] },
-  { id: 16, nombre: "ENTERIZOS", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img16.jpg", colores: ["Rojo", "Negro", "Azul"] },
-  { id: 17, nombre: "ENTERIZO TIRA", descripcion: "Enterizos", precio: 50000.00, imagen: "/images/Img17.jpg", colores: ["Blanco", "Azul"] },
-  { id: 18, nombre: "ENTERIZO SIZA", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img18.jpg", colores: ["Amarillo", "Negro"] },
-  { id: 19, nombre: "ENTERIZO RECOGIDO", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img19.jpg", colores: ["Rojo", "Negro"] },
-  { id: 20, nombre: "ENTERIZO PUSH", descripcion: "Enterizos", precio: 50000.00, imagen: "/images/Img20.jpg", colores: ["Verde", "Negro"] }
+  { id: 10, nombre: "SET", descripcion: "", precio: 45000.00, imagen: "/images/Img10.jpg", colores: ["Rojo", "Azul"] }, 
+  { id: 11, nombre: "SET SUDADERA + CHAQUETA CHOMPA", descripcion: "", precio: 60000.00, imagen: "/images/Img12.jpg", colores: ["Negro", "Gris"] },
+  { id: 12, nombre: "SET CHAQUETA TEX + SHORT", descripcion: "Dúos", precio: 40000.00, imagen: "/images/Img13.jpg", colores: ["Naranja", "Negro"] },
+  { id: 13, nombre: "SET SHORT PUSH + TOP PUNTA", descripcion: "Dúos", precio: 45000.00, imagen: "/images/Img2.jpg", colores: ["Verde", "Negro"] },
+  { id: 14, nombre: "SET SHORT + TOP MARIPOSA", descripcion: "Dúos", precio: 45000.00, imagen: "/images/Img15.jpg", colores: ["Rojo", "Negro"] },
+  { id: 15, nombre: "ENTERIZOS", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img16.jpg", colores: ["Rojo", "Negro", "Azul"] },
+  { id: 16, nombre: "ENTERIZO TIRA", descripcion: "Enterizos", precio: 50000.00, imagen: "/images/Img17.jpg", colores: ["Blanco", "Azul"] },
+  { id: 17, nombre: "ENTERIZO SIZA", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img18.jpg", colores: ["Amarillo", "Negro"] },
+  { id: 18, nombre: "ENTERIZO RECOGIDO", descripcion: "Enterizos", precio: 45000.00, imagen: "/images/Img19.jpg", colores: ["Rojo", "Negro"] },
+  { id: 19, nombre: "ENTERIZO PUSH", descripcion: "Enterizos", precio: 50000.00, imagen: "/images/Img20.jpg", colores: ["Verde", "Negro"] }
 ]
 
 export default function CatalogoRopa() {
